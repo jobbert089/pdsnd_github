@@ -12,5 +12,5 @@ bikeshare_2.py: The python analysis script.
 <city>.csv: The corresponding bikeshare raw data. Notice: "New York City" has to be replaced by "new_york_city" in this case.
 
 ### Credits
-Thanks for the inspiring project to all working people @ udacity.
+Thanks for the inspiring project to all working people @ udacity. I enjoyed working on your projects a lot.
 
