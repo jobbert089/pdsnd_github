@@ -241,6 +241,7 @@ def main():
         city_name, filter_option, month, day = get_filters()
         df = load_data(city_name, filter_option, month, day)
 
+		# Function-calls in given order. First some time-based statistics, then station and trip statistics, finally certain user statistics.	
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
