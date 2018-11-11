@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+22.10.2018
 
 ### Project Title
-Replace the Project Title
+Bikeshare Analysis Python Project
 
 ### Description
-Describe what your project is about and what it does
+This is a python script being able to analyse collected bikeshare data from New York City, Washington or Chicago.
 
 ### Files used
-Include the files used
+bikeshare_2.py: The python analysis script.
+<city>.csv: The corresponding bikeshare raw data.
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Thanks for the inspiring project to all working people @ udacity.
 
