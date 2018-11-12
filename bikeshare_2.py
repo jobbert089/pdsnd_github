@@ -214,10 +214,10 @@ def user_stats(df, city_name):
     # Display counts of gender
     if city_name != "Washington":
         print("\nCounts of gender:")
-        print("-----------------")
+        print('-'*17)
         print(df['Gender'].value_counts())
         print("\nYear of birth data:")
-        print("-------------------")
+        print('-'*19)
         print("Earliest: " + str(df["Birth Year"].min()) + ", Most Recent: " + str(df["Birth Year"].max()))
         print("\nMost common years in descending list format:")
         print('-'*43)
