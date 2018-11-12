@@ -220,7 +220,7 @@ def user_stats(df, city_name):
         print("-------------------")
         print("Earliest: " + str(df["Birth Year"].min()) + ", Most Recent: " + str(df["Birth Year"].max()))
         print("\nMost common years in descending list format:")
-        print("-------------------------------------------")
+        print('-'*43)
         print(df["Birth Year"].value_counts().max)
         
         
